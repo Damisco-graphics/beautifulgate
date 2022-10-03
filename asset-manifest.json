@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/beautifulgate/static/css/main.479e7051.css",
+    "main.js": "/beautifulgate/static/js/main.00c3c96f.js",
+    "static/js/787.777c6d4a.chunk.js": "/beautifulgate/static/js/787.777c6d4a.chunk.js",
+    "static/media/Child_dedication.jpg": "/beautifulgate/static/media/Child_dedication.7e4ee2da86fd0c0bc0bc.jpg",
+    "static/media/ctl_insidge1.jpg": "/beautifulgate/static/media/ctl_insidge1.cad64a7f85ffea6c8497.jpg",
+    "static/media/ctl_inside2.jpg": "/beautifulgate/static/media/ctl_inside2.821a132ea98a5de9039a.jpg",
+    "static/media/ctl_outside1.jpg": "/beautifulgate/static/media/ctl_outside1.4f1738089af6f5115321.jpg",
+    "static/media/ctl_outside2.jpg": "/beautifulgate/static/media/ctl_outside2.61cfc6566f7b6718924d.jpg",
+    "static/media/instagram_icon.png": "/beautifulgate/static/media/instagram_icon.dad1187bbf26fe9d5ba5.png",
+    "static/media/whatsapp_icon.png": "/beautifulgate/static/media/whatsapp_icon.ffba9eb3fcd093141629.png",
+    "static/media/Pastor_Opasanya2.PNG": "/beautifulgate/static/media/Pastor_Opasanya2.1b410e458f9a9eadff4a.PNG",
+    "static/media/bg.png": "/beautifulgate/static/media/bg.4b197e83e0668575a265.png",
+    "static/media/rccg_logo.png": "/beautifulgate/static/media/rccg_logo.b35cafed2e03b4099337.png",
+    "static/media/Pst_Opasanya.png": "/beautifulgate/static/media/Pst_Opasanya.ea57a38fcf1cc01fae6c.png",
+    "index.html": "/beautifulgate/index.html",
+    "main.479e7051.css.map": "/beautifulgate/static/css/main.479e7051.css.map",
+    "main.00c3c96f.js.map": "/beautifulgate/static/js/main.00c3c96f.js.map",
+    "787.777c6d4a.chunk.js.map": "/beautifulgate/static/js/787.777c6d4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.479e7051.css",
+    "static/js/main.00c3c96f.js"
+  ]
+}
