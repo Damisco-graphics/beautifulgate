@@ -1,0 +1,126 @@
+#pastors{
+    width: 70%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px
+}
+.eachpastor{
+    width: 100%;
+    display: flex;
+    
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+    padding-left: 0;
+    padding-right: 50px;
+    padding-top: 20px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.eachpastor img{
+    margin-left: 0;
+    width: 300px;
+    border-bottom-left-radius: 45px;
+}
+
+.pastortext{
+    float: inline-end;
+    /* width:40%; */
+    word-wrap: break-word;
+    text-align: justify;
+
+    /* word-break: break-all; */
+}
+h1{
+    position: relative;
+    color: #953553;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: blue;
+}
+
+@media (max-width:800px) and (min-width:400px){
+    #pastors{
+        width: 95%;
+        
+        
+    }
+    .eachpastor{
+        padding-right: 20px;
+    }
+    .eachpastor img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 0;
+        
+    }
+    .pastortext{
+        margin-bottom: 10px;
+        height: 190px;
+        flex-wrap: nowrap;
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        
+        
+    }
+}
+
+@media (max-width:399px) and (min-width:350px){
+    #pastors{
+        width: 97%;
+        
+        
+    }
+    .eachpastor{
+        padding-right: 20px;
+    }
+    .eachpastor img{
+        width: 10rem;
+        height: 11rem;
+        margin: auto;
+        margin-bottom: 0;
+        
+    }
+    .pastortext{
+        margin-bottom: 10px;
+        height: 190px;
+        flex-wrap: nowrap;
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        
+        
+    }
+}
+
+
+@media (max-width:349px) and (min-width:300px){
+    #pastors{
+        width: 97%;
+        
+        
+    }
+    .eachpastor{
+        padding-right: 20px;
+    }
+    .eachpastor img{
+        width: 10rem;
+        /* height: 11rem; */
+        margin: auto;
+        margin-bottom: 0;
+        
+    }
+    .pastortext{
+        margin-bottom: 10px;
+        height: 190px;
+        flex-wrap: nowrap;
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        
+        
+    }
+}

@@ -1,0 +1,253 @@
+#pastors{
+    width: 70%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.aboutus{
+    width: 100%;
+    display: flex;
+    
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+    padding-left: 0;
+    padding-right: 50px;
+    padding-top: 20px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.aboutus img{
+    margin-top: -20px;
+    margin-left: 0;
+    width: 50%;
+    height: max-content;
+    border-top-left-radius: 50px;
+}
+
+.aboutus-text{
+    float: inline-end;
+    padding-left: 10px;
+    word-wrap: break-word;
+    text-align: justify;
+    
+
+    /* word-break: break-all; */
+}
+h1{
+    position: relative;
+    color: #953553;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: blue;
+}
+
+
+
+.smallbox{
+    width: 200px;
+    height:100px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    border-radius:15px;
+    animation: glowing 1700ms infinite;
+    
+}
+ 
+.box{
+    width: 205px;
+    height: 105px;
+    padding-top: 2.5px;
+    border-radius:15px;
+    animation: antiglow 1700ms infinite;
+}
+
+@keyframes antiglow{
+    0%{
+        background-color: none;
+    }
+    50%{
+        background: blue;
+    }
+    100%{
+        background: none;
+    }
+}
+.smallbox h2{
+    font-size: medium;
+}
+
+@keyframes glowing{
+    0%{
+        box-shadow: 0 0 10px black;
+    }
+    
+    /* 50%{        
+        box-shadow: 0 0 5px blue;
+    } */
+
+    100%{
+        box-shadow: 0 0 1px black;
+    }
+}
+
+
+@media (max-width:800px) and (min-width:400px){
+    #pastors{
+        width: 95%;
+        
+        
+    }
+    .aboutus{
+        padding-right: 20px;
+        display:flex;
+        width: 100%;
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .aboutus img{
+        width: 24.7rem;
+        height: 17.35rem;
+        border-top-left-radius: 50px;
+        border-radius: 50px;
+        margin-right:10px;
+        
+        /* margin-bottom: unset; */
+        /* object-fit: cover; */
+        
+    }
+
+    .box{
+        
+        margin: auto;
+        margin-right: 7px;
+        float: left;
+        margin-bottom: -5px;
+        
+        
+    }
+    .aboutus-text{
+        margin-top: 7px;
+        display: block;
+        margin-bottom: 10px;
+        height: 190px;
+        flex-wrap: wrap;
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        
+        
+    }
+}
+
+@media (max-width:399px) and (min-width:350px){
+    #pastors{
+        width: 95%;
+        
+        
+    }
+    .aboutus{
+        padding: 0;
+        display:flex;
+        width: 100%;
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .aboutus img{
+        width: stretch;
+        height: 13rem;
+        border-top-left-radius: 50px;
+        border-radius: 50px;
+        margin-top: 0;
+        
+    }
+
+    .box{
+        
+        margin: auto;
+        margin-right: 7px;
+        float: left;
+        margin-bottom: 0px;
+        width: 120px;
+        margin-left: -10px;
+        
+    }
+    .smallbox{
+        width: 115px;
+        word-wrap: break-word;
+        text-align: center;
+        
+    }
+
+    .aboutus-text{
+        padding: 15px;
+        /* padding-right: 5px;
+        margin-top: 7px; */
+        display: block;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        
+        
+    }
+}
+
+@media (max-width:349px) and (min-width:300px){
+    #pastors{
+        width: 95%;
+        
+        
+    }
+    .aboutus{
+        padding: 0;
+        display:flex;
+        width: 100%;
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .aboutus img{
+        width: stretch;
+        height: 13rem;
+        border-top-left-radius: 50px;
+        border-radius: 50px;
+        margin-top: 0;
+        
+    }
+
+    .box{
+        
+        margin: auto;
+        margin-right: 7px;
+        float: left;
+        margin-bottom: 0px;
+        width: 120px;
+        margin-left: -7px;
+        
+    }
+    .smallbox{
+        width: 115px;
+        word-wrap: break-word;
+        text-align: center;
+        
+    }
+
+    .aboutus-text{
+        padding: 10px;
+        /* padding-right: 5px;
+        margin-top: 7px; */
+        display: block;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        /* overflow-wrap: break-word; */
+        overflow: hidden;
+        
+        
+    }
+}

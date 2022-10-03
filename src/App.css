@@ -1,0 +1,1463 @@
+.App {
+  text-align: center;
+  margin:0;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+
+.offcanvas{
+  background-color: #DCDCDC;
+  color: red;
+}
+#carouselDiv{
+    display:flex;
+    padding-left: 50px;
+    padding-right: 50px ;
+    justify-content:space-between;
+    margin-top: 75px;
+    margin-bottom: 0; 
+    min-height:fit-content; 
+    background:#DCDCDC;
+}
+
+.slightlyVisibleLogo img{
+  background-position: center;
+  width: 130px;
+  display: block;
+  margin-top: 180%;
+  opacity: 30%;
+  transform-origin: 50% 45%;
+  transform:rotate(0);
+  animation: rlogo 10s infinite linear;
+}
+
+@keyframes rlogo{
+  0%{transform:rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+.carousel {
+  width: 800px;
+  height:max-content;
+  /* margin-left: 0;
+  margin-right: 0; */
+  margin: auto;
+  /* margin-bottom: 5px; */
+}
+
+.secondnavbar{
+  margin-top: 5px;
+  margin-bottom:5px; 
+  position:relative; 
+  color: black;
+  font-weight: larger;
+}
+.secondcontainer{
+  justify-content: center;
+}
+.secondnavbar-nav{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center
+}
+
+.secondnavbar-navitems{
+  margin: 10px;
+}
+
+
+.button{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#resources{
+  width: 85%;
+  margin: auto;
+  display: flexbox;
+  margin-bottom: 3px;
+}
+
+.watchlive{
+  width: 200px;
+  height: 100px;
+  background: black;
+  color: white;
+  margin: auto;
+  padding: 5%;
+  box-shadow: 0 2px 5px black
+}
+
+
+#youtubeVideos{
+  width: 95%;
+  display: flex;
+  margin: auto;
+  margin-top: '100px';
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* @media (max-device-width: 500px) and (orientation:portrait) {
+  iframe{
+    width: 150px;
+    height: 50px;
+  }
+} */
+
+.iframe{
+  width:350px;
+  height:200px;
+}
+
+
+
+#cws{
+  height: max-content;
+  background-color: rgb(172, 170, 170);
+  display: flex;
+  padding: 50px;
+  padding-right: 150px;
+  justify-content: space-between;
+  border-top-left-radius:-15px ;
+}
+
+.cws-img{
+  float: left;
+  width: 25rem;
+  margin: auto;  
+  margin-bottom:-50px;
+}
+
+.cws-text{
+  width: 400px;
+  float: right;
+  margin-bottom: -50px;
+}
+
+.big-title{
+  font-size: 50px;
+    margin-bottom: 24px;
+    line-height: 1;
+    margin-bottom: 12px;
+    letter-spacing: -1.5px;
+    /* font-family: 'Dosis', Trebuchet MS, Helvetica, Arial, sans-serif; */
+    font-family: Dosis;
+    font-Weight: 400;
+    vertical-align: baseline;
+}
+.cws-pstOpasanya{
+  letter-spacing:9px; 
+  text-decoration: underline 1px solid magenta;
+}
+
+.stayconnect{
+  font-size: 1.2rem
+}
+
+
+#ourprogrammes{
+  /* width: 95%; */
+  margin: auto;
+  background: tan;
+  padding: 50px;
+  border-end-end-radius: 60px;
+  
+}
+
+.line{
+  display: flex;
+  width: 36%;
+  height: 30px;
+  border-bottom: 1px solid black;
+  /* position: absolute; */
+  }
+  
+#ourprogrammes h1{
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
+  color: #9F2B68;
+  font-weight:bolder;
+  width: fit-content;
+  text-shadow: 0 0 3.5px white;
+  
+
+  
+}
+
+.programmes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+.programmes h3{
+  text-align: center;
+  color: green;
+}
+
+#SundayService{
+  display: none;
+  display:block;
+  position: relative;
+  margin: auto;
+}
+#SundayService h3{
+  color: #0818A8;
+}
+
+#fillupafterourprogrammes{
+  min-height: fit-content+20px;
+  background-color: grey;
+  /* margin-bottom: -100px; */
+}
+table{
+  width:95%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: arial, sans-serif;
+  margin: auto;
+  justify-content: space-between;
+  
+}
+
+th,td{
+padding:0px;
+justify-content: space-between;
+text-align: justify;
+/* text-align-last: justify; */
+
+}
+
+td{
+  width:40%;
+  flex-wrap: wrap;
+  word-wrap: normal;
+  
+}
+td:nth-child(even){
+  /* floa989879988899987t: inline-end; */
+  text-align: left;
+}
+
+th:nth-child(even){
+  /* float:inline-end; */
+  text-align: left;
+}
+
+
+.copyright{
+  margin:auto;
+  color: white;
+  font-weight: 200;
+}
+
+td .link{
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover{
+  color:#953553;
+  font-weight: bolder;
+  text-shadow: 0 0 2px white;
+}
+
+#footer{
+  background: grey;
+  height: fit-content;
+  margin-top: -25px;
+  padding: 50px;
+  padding-bottom: 0;
+  border-top-left-radius: 25px;
+
+}
+
+@media (max-width:900px) and (min-width:801px) {
+  #carouselDiv{
+    padding-left: 10px;
+    padding-right: 10px ;
+    justify-content: space-between;
+    /* margin-top: 250px; */
+  }
+  .Carousel{
+    padding-bottom: 0;
+  }
+
+  .Carouselitem h3{
+    /* margin-bottom: -10px; */
+    font-size: xx-large;
+    padding-bottom: 0;
+  }
+
+/* 
+.Carouselitem p{
+  margin-bottom: -10px;
+} */
+
+  .Carouselcaption{
+    font-size: x-large;
+    margin-bottom: -20px;
+  }
+
+  .slightlyVisibleLogo img{
+    display: relative;
+    width: 100px;
+    display: block;
+    margin-top: 100%;
+    margin-bottom: 20%;
+  }
+
+  .carousel{
+    width:90%;
+    height: max-content;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  #resources{
+    width: 97%;
+  }
+
+  
+  #youtubeVideos{
+    width: 100%;
+  }
+  .iframe{
+    width: 250px;
+    height: 150px;
+  }
+
+  #cws{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 0;    
+    padding-top:0px ;
+    top: 0;
+    max-height: fit-content;
+  }
+
+  .cws-text{
+    position: relative;
+    width: 350px;
+    line-height: 01;
+    margin-top: 0px;
+    
+  }
+  .cws-img{
+  float: left;
+  width: 15rem;
+  margin: auto;
+  margin-bottom: -50px;
+  
+}
+.big-title{
+  
+  font-weight: 30px;  
+  margin-top: 55px;
+}
+
+.cws-pstOpasanya{
+  letter-spacing:7.5px; 
+  font-size: larger;
+  text-decoration: underline 1px solid magenta;
+}
+
+.stayconnect{
+  font-size: large;
+  line-height: normal;
+  /* text-align: justify; */
+}
+
+.cws-text Button{
+  font-size: large;
+}
+.cws-text img{
+  width: 2rem; 
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#ourprogrammes{
+  padding: 25px
+}
+.line{
+  width: stretch;
+  height: 22px;
+}
+.ouprog{
+  width:stretch;
+  padding:0;
+  white-space: nowrap;
+}
+.programmes{
+  font-size: larger
+}
+#SundayService{
+  font-size: larger
+}
+}
+
+@media (max-width:800px) and (min-width:400px) {
+  #carouselDiv{
+    padding-left: 10px;
+    padding-right: 10px ;
+    justify-content: space-between;
+  }
+  .Carousel{
+    padding-bottom: 0;
+  }
+
+  .Carouselitem h3{
+    /* margin-bottom: -10px; */
+    font-size: medium;
+    padding-bottom: 0;
+  }
+
+/* 
+.Carouselitem p{
+  margin-bottom: -10px;
+} */
+
+  .Carouselcaption{
+    font-size: x-small;
+    margin-bottom: -20px;
+  }
+
+  .slightlyVisibleLogo img{
+    display: relative;
+    width: 70px;
+    display: block;
+    margin-top: 100%;
+    margin-bottom: 20%;
+  }
+
+  .carousel{
+    width:90%;
+    height: max-content;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  #resources{
+    width: 97%;
+  }
+
+  
+  #youtubeVideos{
+    width: 100%;
+  }
+  .iframe{
+    width: 150px;
+    height: 100px;
+  }
+  .secondnavbar-navitems{
+    margin: 0px;
+  }  
+  .secondcontainer{
+    flex-wrap: wrap;
+  }
+  .secondcontainer Button{
+    width: 78px;
+    font-size: x-small;
+  }
+  .secondnavbar-nav{
+    width: 100%;
+    display: flex;
+    font-size: x-small;
+  }
+  
+  
+
+  
+  #cws{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 0;    
+    padding-top:0px ;
+    top: 0;
+    max-height: fit-content;
+  }
+
+  .cws-text{
+    position: relative;
+    width: 220px;
+    line-height: 01;
+    margin-top: 0px;
+    
+  }
+  .cws-img{
+  float: left;
+  width: 15rem;
+  margin: auto;
+  margin-bottom: -50px;
+  
+}
+.big-title{
+  font-size: 30px;
+  font-weight: 30px;  
+  margin-top: 55px;
+}
+
+.cws-pstOpasanya{
+  letter-spacing:2px; 
+  font-size: small;
+  text-decoration: underline 1px solid magenta;
+}
+
+.stayconnect{
+  font-size: smaller;
+  line-height: normal;
+  /* text-align: justify; */
+}
+
+.cws-text Button{
+  font-size: small;
+}
+.cws-text img{
+  width: 2rem; 
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#ourprogrammes{
+  padding: 20px
+}
+.line{
+  width: stretch;
+  height: 17px;
+}
+.ouprog{
+  width:stretch;
+  padding:0;
+  white-space: nowrap;
+}
+#ourprogrammes h1{
+  font-size: x-large;
+}
+
+.programmes h3{
+  font-size: larger;
+  text-align: center;
+  color: green;
+}
+
+.programmes{
+  font-size: smaller;
+  line-height: 0.9;
+}
+
+#SundayService h3{
+  font-size: larger;
+}
+#SundayService{
+  font-size: small;
+  line-height: 0.9;
+}
+
+
+  
+
+table{
+  table-layout: fixed;
+  width:98%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: arial, sans-serif;
+  margin: auto;
+  justify-content: space-between;
+  
+  
+  
+}
+
+th,td{
+padding:0px;
+
+word-wrap: break-word;
+}
+td:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+th:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+
+
+td:nth-child(even){
+  float: inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+th:nth-child(even){
+  float:inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+
+.copyright{
+  margin:auto;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 200;
+}
+
+#footer{
+  background: grey;
+  height: fit-content;
+  padding: 20px 10px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size:xx-small;
+}
+
+
+}
+
+
+@media (max-width:399px) and (min-width:350px) {
+  #offcanvas{
+    width: 50%;
+    max-width: none;
+}
+.offcanvas-header{
+  background:  #6c757d;
+  height: 75px;
+  font-weight: bolder;
+}
+
+.offcanvas-header:hover{
+  text-shadow: 0 0 5px white;
+  color: #953553;
+}
+
+#offcanvas-color{
+  background: #DCDCDC;
+  color: black;
+  text-shadow: #953553
+}
+
+
+  #carouselDiv{
+    padding-left: 3px;
+    padding-right: 3px ;
+    justify-content: space-between;
+  }
+  
+  .Carousel{
+    padding-bottom: 0;
+  }
+
+  .Carouselitem h3{
+    font-size: medium;
+    padding-bottom: 0;
+  }
+
+  .Carouselcaption{
+    font-size: x-small;
+    margin-bottom: -20px;
+  }
+
+  .slightlyVisibleLogo img{
+    display: relative;
+    width: 50px;
+    display: block;
+    margin-top: 125%;
+    margin-bottom: 10%;
+  }
+
+  .carousel{
+    width:85%;
+    height: max-content;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  textarea{
+   height: 6em;
+  }
+  
+  #resources{
+    width: 98.5%;
+  }
+
+  
+  #youtubeVideos{
+    width: 100%;
+  }
+  .iframe{
+    width: 110px;
+    height: 70px;
+  }
+  .secondnavbar-navitems{
+    margin: 0px;
+  }  
+  .secondnavbar-navitems:first-child{
+    margin: 0px;
+    margin-left: -10px;
+  }  
+  
+
+  .secondcontainer{
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: -10px;
+    left: -10px;
+    
+  }
+  .secondcontainer Button{
+    min-width: 50px;
+    font-size: x-small;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .secondnavbar-nav{
+    width: 100%;
+    display: flex;
+    font-size: x-small;
+  }
+  
+  
+
+  
+  #cws{
+    width: 100%;
+    padding-right: 3px;
+    padding-left: 0;    
+    padding-top:0px ;
+    top: 0;
+    max-height: fit-content;
+  }
+
+  .cws-text{
+    position: relative;
+    width: 220px;
+    line-height: 01;
+    margin-top: 3px;
+    
+  }
+
+  /* .carousel-control-prev{
+    margin-left: -30px;
+  } */
+
+  .cws-img{
+  float: left;
+  width: 12rem;
+  margin: auto;
+  margin-bottom: -50px;
+  margin-top: 29px;
+  
+}
+.big-title{
+  font-size: x-large;
+  font-weight: 30px;  
+  margin-top: 20px;
+}
+
+.cws-pstOpasanya{
+  margin-top: -5px;
+  letter-spacing:2px; 
+  font-size: small;
+  /* line-height: 1; */
+  margin-bottom: 10px;
+  text-decoration: underline 1px solid magenta;
+}
+
+.stayconnect{
+  font-size: smaller;
+  line-height: normal;
+  margin-bottom: 8px;
+  
+  /* text-align: justify; */
+}
+
+.cws-text Button{
+  font-size: small;
+}
+.cws-text img{
+  width: 2rem; 
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: 2px;
+}
+
+
+
+#ourprogrammes{
+  padding: 20px 8.5px;
+}
+.line{
+  width: stretch;
+  height: 11px;
+}
+.ouprog{
+  width:stretch;
+  padding:0;
+  white-space: nowrap;
+}
+#ourprogrammes h1{
+  font-size: large;
+}
+
+.programmes h3{
+  font-size: small;
+  text-align: center;
+  color: green;
+  white-space: nowrap;
+}
+
+.programmes{
+  font-size: x-small;
+  /* line-height: 0.5; */
+}
+
+#SundayService h3{
+  font-size: small;
+}
+#SundayService{
+  font-size: x-small;
+  line-height: 0.5;
+}
+
+
+  
+
+table{
+  table-layout: fixed;
+  width:98%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: arial, sans-serif;
+  margin: auto;
+  justify-content: space-between;
+  
+  
+  
+  
+}
+
+th,td{
+padding:0px;
+padding-left: 4px;
+word-wrap: break-word;
+}
+
+td:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+th:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+
+
+td:nth-child(even){
+  float: inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+th:nth-child(even){
+  float:inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+
+.copyright{
+  margin:auto;
+  margin-bottom: -10px;
+  color: white;
+  font-weight: 200;
+}
+
+#footer{
+  background: grey;
+  height: fit-content;
+  padding: 20px 10px 0 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size:xx-small;
+}
+
+
+}
+
+
+@media (max-width:349px) and (min-width:300px) {
+  #offcanvas{
+    width: 45%;
+    max-width: none;
+}
+.offcanvas-header{
+  background:  #6c757d;
+  height: 75px;
+  font-weight: bolder;
+}
+
+.offcanvas-header:hover{
+  text-shadow: 0 0 5px white;
+  color: #953553;
+}
+
+#offcanvas-color{
+  background: #DCDCDC;
+  color: black;
+  text-shadow: #953553
+}
+
+  #carouselDiv{
+    padding-left: 3px;
+    padding-right: 3px ;
+    justify-content: space-between;
+  }
+  
+  .Carousel{
+    padding-bottom: 0;
+  }
+
+  .Carouselitem h3{
+    font-size: medium;
+    padding-bottom: 0;
+  }
+
+  .Carouselcaption{
+    font-size: xx-small;
+    margin-bottom: -25px;
+  }
+
+  .slightlyVisibleLogo img{
+    display: relative;
+    width: 40px;
+    display: block;
+    margin-top: 150%;
+    margin-bottom: 20%;
+  }
+
+  .carousel{
+    width:85%;
+    height: max-content;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  #resources{
+    width: 98.5%;
+  }
+
+  
+  #youtubeVideos{
+    width: 100%;
+  }
+  .iframe{
+    width: 98px;
+    height: 70px;
+  }
+  .secondnavbar-navitems{
+    margin: 0px;
+  }  
+  .secondnavbar-navitems:first-child{
+    margin: 0px;
+    margin-left: -10px;
+  }  
+  
+
+  .secondcontainer{
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: -10px;
+    left: -10px;
+    
+  }
+  .secondcontainer Button{
+    min-width: 45px;
+    font-size: x-small;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .secondnavbar-nav{
+    width: 100%;
+    display: flex;
+    font-size: xx-small;
+  }
+  
+  textarea{
+    height: 4em;
+   }
+
+  
+  #cws{
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 0;    
+    padding-top:0px ;
+    top: 0;
+    max-height: min-content;
+  }
+
+  .cws-text{
+    position: relative;
+    width: 220px;
+    line-height: 01;
+    margin-top: -32px;
+    /* margin-bottom: -30px; */
+    
+  }
+  .cws-img{
+  float: left;
+  width: 10rem;
+  margin: auto;
+  margin-bottom: -50px;
+  margin-top: 50px;
+  
+}
+.big-title{
+  font-size: x-large;
+  font-weight: 30px;  
+  /* margin-top: 20px; */
+  margin-bottom: 3px;
+}
+
+.cws-pstOpasanya{
+  letter-spacing:2px; 
+  font-size: small;
+  line-height: 1;
+  margin-bottom: 7px;
+  text-decoration: underline 1px solid magenta;
+}
+
+.stayconnect{
+  font-size: small;
+  line-height: normal;
+  margin-bottom: 8px;
+  height: 33px;
+  word-wrap: break-word;
+  overflow: hidden;
+  /* text-align: justify; */
+}
+
+.cws-text Button{
+  font-size: small;
+}
+.cws-text img{
+  width: 2rem; 
+  margin-right: 5px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+
+
+#ourprogrammes{
+  padding: 20px
+}
+.line{
+  width: 19%;
+  height: 11px;
+}
+#ourprogrammes h1{
+  font-size: large;
+}
+
+.programmes h3{
+  font-size: small;
+  text-align: center;
+  color: green;
+}
+
+.programmes{
+  font-size: x-small;
+  line-height: 0.5;
+}
+
+#SundayService h3{
+  font-size: small;
+}
+#SundayService{
+  font-size: x-small;
+  line-height: 0.5;
+}
+
+
+  
+
+table{
+  table-layout: fixed;
+  width:98%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: arial, sans-serif;
+  margin: auto;
+  justify-content: space-between;
+  
+  
+  
+  
+}
+
+th,td{
+padding:0px;
+padding-left: 4px;
+word-wrap: break-word;
+}
+
+td:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+th:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+
+
+td:nth-child(even){
+  float: inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+th:nth-child(even){
+  float:inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+
+.copyright{
+  margin:auto;
+  margin-bottom: -20px;
+  color: white;
+  font-weight: 200;
+}
+
+#footer{
+  background: grey;
+  height: fit-content;
+  padding: 20px 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size:xx-small;
+}
+
+
+}
+
+@media (max-width:299px) and (min-width:250px) {
+  .Galaxyfoldscreen{
+    width: stretch;
+    white-space: nowrap;
+    font-size: xx-small;
+  }
+
+  #offcanvas{
+    width: 45%;
+    max-width: none;
+}
+.offcanvas-header{
+  background:  #6c757d;
+  height: 114px;
+  font-weight: bolder;
+}
+
+.offcanvas-header:hover{
+  text-shadow: 0 0 5px white;
+  color: #953553;
+}
+
+#offcanvas-color{
+  background: #DCDCDC;
+  color: black;
+  text-shadow: #953553
+}
+
+  #carouselDiv{
+    margin-top: 110px;
+    padding-left: 3px;
+    padding-right: 3px ;
+    justify-content: space-between;
+  }
+  
+  .Carousel{
+    padding-bottom: 0;
+  }
+
+  .Carouselitem h3{
+    font-size: medium;
+    padding-bottom: 0;
+  }
+
+  .Carouselcaption{
+    font-size: xx-small;
+    margin-bottom: -25px;
+  }
+
+  .slightlyVisibleLogo img{
+    display: relative;
+    width: 35px;
+    display: block;
+    margin-top: 150%;
+    margin-bottom: 20%;
+  }
+
+  .carousel{
+    width:85%;
+    height: max-content;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  #resources{
+    width: 98.5%;
+  }
+
+  
+  #youtubeVideos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .iframe{
+    width: 200px;
+    height: 110px;
+  }
+  .secondnavbar-navitems{
+    margin: auto;
+    flex-wrap: wrap;
+  }  
+  .secondnavbar-navitems:first-child{
+    margin-left: -15px;
+  }  
+  
+
+  .secondcontainer{
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: -10px;
+    left: -10px;
+    line-height: 5%;
+    
+  }
+  .secondcontainer Button{
+    min-width: 40px;
+    font-size: x-small;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .secondnavbar-nav{
+    width: 100%;
+    display: flex;
+    font-size: xx-small;
+  }
+  
+  textarea{
+    height: 4em;
+   }
+
+  
+  #cws{
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 0;    
+    padding-top:0px ;
+    top: 0;
+    max-height: min-content;
+  }
+
+  .cws-text{
+    position: relative;
+    width: 220px;
+    line-height: 01;
+    margin-top: -32px;
+    /* margin-bottom: -30px; */
+    
+  }
+  .cws-img{
+  float: left;
+  width: 8.1rem;
+  margin: auto;
+  margin-bottom: -50px;
+  margin-top: 53px;
+  
+}
+.big-title{
+  font-size: x-large;
+  font-weight: 30px;  
+  /* margin-top: 20px; */
+  margin-bottom: 3px;
+}
+
+.cws-pstOpasanya{
+  letter-spacing:2px; 
+  font-size: small;
+  line-height: 1;
+  margin-bottom: 7px;
+  text-decoration: underline 1px solid magenta;
+}
+
+.stayconnect{
+  font-size: small;
+  line-height: normal;
+  margin-bottom: 8px;
+  height: 33px;
+  word-wrap: break-word;
+  overflow: hidden;
+  /* text-align: justify; */
+}
+
+.cws-text Button{
+  font-size: small;
+}
+.cws-text img{
+  width: 2rem; 
+  margin-right: 5px;
+  margin-top: -13px;
+  margin-bottom: 0px;
+}
+
+
+
+#ourprogrammes{
+  padding: 20px 10px
+}
+.line{
+  width: 19%;
+  height: 11px;
+}
+#ourprogrammes h1{
+  font-size: large;
+}
+
+.programmes h3{
+  font-size: small;
+  text-align: left;
+  color: green;
+  white-space: nowrap;
+  /* word-wrap: break-word; */
+}
+
+.programmes{
+  font-size: x-small;
+  line-height:normal;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+#SundayService h3{
+  font-size: small;
+}
+#SundayService{
+  font-size: x-small;
+  line-height: 0.5;
+}
+
+
+  
+
+table{
+  table-layout: fixed;
+  width:98%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: arial, sans-serif;
+  margin: auto;
+  justify-content: space-between;
+  
+  
+  
+  
+}
+
+th,td{
+padding:0px;
+padding-left: 4px;
+word-wrap: break-word;
+}
+
+td:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+th:first-child{
+  border-right: 0.5px solid tan;
+  width: 27%;
+}
+
+
+
+td:nth-child(even){
+  float: inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+th:nth-child(even){
+  float:inline-end;
+  text-align: left;
+  padding-left: 10px;
+  border-right: 0.5px solid tan;
+  width: 45%;
+}
+
+
+.copyright{
+  margin:auto;
+  margin-bottom: 0px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 200;
+}
+
+#footer{
+  background: grey;
+  height: fit-content;
+  padding: 20px 10px 0 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size:xx-small;
+}
+
+
+}
